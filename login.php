@@ -1,5 +1,5 @@
-<?php require 'inc/head.php'; ?>
 <?php require 'inc/control.php'; ?>
+<?php require 'inc/head.php'; ?>
 <div class="container" style="margin-top:40px">
 <div class="row">
   <div class="col-sm-6 col-md-4 col-md-offset-4">
@@ -27,7 +27,7 @@
                   </div>
                 </div>
                 <div class="form-group">
-                  <input type="submit" class="btn btn-lg btn-primary btn-block" value="Sign in">
+                  <input type="submit" class="btn btn-lg btn-primary btn-block" value="Sign in"name="sub">
                     <p class="small text-danger"> <?php if($_POST) {echo $error['user'];}?></p>
                 </div>
               </div>

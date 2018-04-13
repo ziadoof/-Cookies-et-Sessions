@@ -41,7 +41,7 @@
           <li>
             <a href="/cart.php" class="btn btn-warning navbar-btn">
               <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
-              Cart
+              Cart<?php echo ' '.' '. $_SESSION['article'] ;?>
             </a>
           </li>
         </ul>
